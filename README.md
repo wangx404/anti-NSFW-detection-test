@@ -69,6 +69,6 @@
 
 ## 一个脚本
 
-在这里，我编写了一个简单的python脚本用于生成两种形式的gif,调用方法为：`python image2gif.py -mode 1/2 -image your_image_path`。
+在这里，我编写了一个简单的python脚本用于生成两种形式的gif,调用方法为：`python image2gif.py --mode 1/2 --image your_image_path`。
 
-其中`-mode 1`代表生成第一种gif（添加空白帧），`-mode 2`代表生成第二种gif(条纹化之后进行拼接)；`-image your_image_path`指定图片路径，生成的gif和原始图片位于统一路径当中。
+其中`--mode 1`代表生成第一种gif（添加空白帧），`--mode 2`代表生成第二种gif(条纹化之后进行拼接)；`--image your_image_path`指定图片路径，生成的gif和原始图片位于统一路径当中。
