@@ -15,7 +15,7 @@
    
    以Tencent AI的色情图片检测为例，将示例图片分别旋转90°和180°之后进行测试，porn的概率反而越来越大。这说明了这一种思路目前已经不太可行。
    
-   ![不同旋转角度下的检测结果比对示意图](/images/image_at_different_degrees.jpg)
+   <center>![不同旋转角度下的检测结果比对示意图](/images/image_at_different_degrees.jpg)</center>
    
 2. 拼接空白图片
 
